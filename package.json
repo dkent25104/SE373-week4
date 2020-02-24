@@ -2,7 +2,7 @@
   "name": "week4",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "lab3.js",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.0"
