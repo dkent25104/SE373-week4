@@ -73,4 +73,5 @@ app.get('/*', (req,res)=>{
     res.render('error');
 });
 
-app.listen(3000, ()=>{console.log("Server running on localhost:3000")});
+const port = process.env.PORT || 80
+app.listen(port, ()=>{console.log("Server running on port " + port)});
